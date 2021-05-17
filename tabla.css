@@ -51,6 +51,53 @@ h1 {
   align-items: center;
   z-index: 2;
 }
+.rectangulo:hover .caja1{
+  box-shadow: 0 4px 10px rgba(17,29,48, .26);
+  transition: 00.5s; 
+  background-color: #5ea8ff;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  border-bottom-left-radius: 100%;
+  border-bottom-right-radius: 100%;
+  margin-bottom: 20px;  
+}
+.rectangulo:hover .caja{
+  box-shadow: 0 4px 10px rgba(17,29,48, .26);
+  transition: 00.5s; 
+  background-color: rgb(240, 249, 255);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  border-bottom-left-radius: 100%;
+  border-bottom-right-radius: 100%;
+  margin-bottom: 20px;
+  
+}
+.rectangulo:hover .caja>p{
+  color: black;
+  font-size: 25px;
+  font-weight: 500;
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+.rectangulo1:hover .caja1{
+  box-shadow: 0 4px 10px rgba(17,29,48, .26);
+  transition: 00.5s;
+  background-color: #5ea8ff;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  border-bottom-left-radius: 100%;
+  border-bottom-right-radius: 100%;
+  margin-bottom: 20px;
+}
 .rectangulo1 {
   width: 90%;
   background: white;
