@@ -52,6 +52,19 @@ h1 {
   z-index: 2;
   cursor: pointer;
 }
+.rectangulo1 {
+  width: 90%;
+  background: white;
+  margin-bottom: 60px;
+  border-radius: 10px;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+  cursor: pointer;
+}
 .rectangulo:hover .caja1{
   box-shadow: 0 4px 10px rgba(17,29,48, .26);
   transition: 00.5s; 
@@ -99,34 +112,7 @@ h1 {
   border-bottom-right-radius: 100%;
   margin-bottom: 20px;
 }
-.rectangulo1 {
-  width: 90%;
-  background: white;
-  margin-bottom: 60px;
-  border-radius: 10px;
-  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  z-index: 1;
-  cursor: pointer;
-}
-.rectangulo .caja1 > h5 {
-  font-size: 20px;
-  color: black;
-  background: #ffffff;
-  display: flex;
-  width: 70px;
-  height: 70px;
-  align-items: center;
-  justify-content: center;
-  border-radius: 50%;
-  border: 4px solid rgb(240, 249, 255);
-  position: relative;
-  top: -30px;
-}
-.rectangulo1 .caja1 > h5 {
+.rectangulo .caja1 > h5, .rectangulo1 .caja1 > h5 {
   font-size: 20px;
   color: black;
   background: #ffffff;
@@ -176,7 +162,7 @@ h1 {
   position: relative;
   top: -30px;
 }
-.rectangulo > h3 {
+.rectangulo > h3, .rectangulo1 > h3{
   width: 100%;
   display: flex;
   justify-content: center;
@@ -185,23 +171,7 @@ h1 {
   font-size: 12px;
   margin-bottom: 10px;
 }
-.rectangulo1 > h3 {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  font-size: 12px;
-  margin-bottom: 10px;
-}
-.rectangulo .caja1 > h2 {
-  color: black;
-  font-size: 25px;
-  font-weight: 500;
-  margin-bottom: 30px;
-  font-weight: bold;
-}
-.rectangulo1 .caja1 > h2 {
+.rectangulo .caja1 > h2, .rectangulo1 .caja1 > h2 {
   color: black;
   font-size: 25px;
   font-weight: 500;
@@ -233,7 +203,7 @@ h1 {
   margin-bottom: 25px;
   font-weight: bold;
 }
-.rectangulo > p {
+.rectangulo > p, .rectangulo1 > p  {
   color: #acacac;
   font-size: 10px;
   font-weight: 500;
@@ -242,20 +212,7 @@ h1 {
   justify-content: center;
   margin-bottom: 10px;
 }
-.rectangulo1 > p {
-  color: #acacac;
-  font-size: 10px;
-  font-weight: 500;
-  display: flex;
-  text-align: center;
-  justify-content: center;
-  margin-bottom: 10px;
-}
-.check-list > i {
-  color: #7db8ff;
-  font-size: 15px;
-}
-.check-list1 > i {
+.check-list> i, .check-list1>i {
   color: #7db8ff;
   font-size: 15px;
 }
@@ -265,17 +222,9 @@ h1 {
   align-items: center;
   flex-direction: column;
 }
-.check-list {
+.check-list, .check-list1{
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  color: #acacac;
-  font-size: 10px;
-  margin-bottom: 20px;
-}
-.check-list1 {
-  display: flex;
-  justify-content: center;
   align-items: center;
   color: #acacac;
   font-size: 10px;
@@ -297,23 +246,7 @@ h1 {
   background: #5ea8ff;
   margin-bottom: 20px;
 }
-.rectangulo > a {
-  padding: 10px;
-  border-radius: 30px;
-  width: 90px;
-  height: 25px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: #ffffff;
-  color: #5ea8ff;
-  text-decoration: none;
-  font-weight: 200;
-  font-size: 10px;
-  border: 1px solid #5ea8ff;
-  margin-bottom: 20px;
-}
-.rectangulo1 > a {
+.rectangulo > a, .rectangulo1 > a {
   padding: 10px;
   border-radius: 30px;
   width: 90px;
@@ -339,14 +272,7 @@ h1 {
     max-height: 1000px;
     flex-direction: row;
   }
-  .rectangulo {
-    width: 30%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 10px;
-  }
-  .rectangulo1 {
+  .rectangulo, .rectangulo1 {
     width: 30%;
     display: flex;
     justify-content: center;
@@ -358,22 +284,11 @@ h1 {
     justify-content: center;
     align-items: center;
   }
-  .rectangulo .caja1 > h5 {
+  .rectangulo .caja1 > h5, .rectangulo1 .caja1 > h5 {
     font-size: 30px;
     width: 80px;
   }
- .rectangulo1 .caja1 > h5 {
-    font-size: 30px;
-    width: 80px;
-    height: 80px;
-  }
-  .caja {
-    width: 100%;
-    border-bottom-left-radius: 100%;
-    border-bottom-right-radius: 100%;
-    margin-bottom: 50px;
-  }
-  .caja1 {
+  .caja, .caja1 {
     width: 100%;
     border-bottom-left-radius: 100%;
     border-bottom-right-radius: 100%;
@@ -384,22 +299,12 @@ h1 {
     width: 80px;
     height: 80px;
   }
-  .rectangulo > h3 {
+  .rectangulo > h3, .rectangulo1 > h3 {
     width: 100%;
     font-size: 20px;
     margin-bottom: 20px;
   }
-  .rectangulo1 > h3 {
-    width: 100%;
-    font-size: 20px;
-    margin-bottom: 20px;
-  }
-  .rectangulo .caja1 > h2 {
-    font-size: 30px;
-    margin-bottom: 30px;
-    font-weight: bold;
-  }
-  .rectangulo1 .caja1 > h2 {
+  .rectangulo .caja1 > h2, .rectangulo1 .caja1 > h2 {
     font-size: 30px;
     margin-bottom: 30px;
     font-weight: bold;
@@ -409,21 +314,12 @@ h1 {
     margin-bottom: 30px;
     font-weight: bold;
   }
-  .rectangulo > h4 {
+  .rectangulo > h4, .rectangulo1 > h4 {
     font-size: 20px;
     margin-bottom: 20px;
     font-weight: bold;
   }
-  .rectangulo1 > h4 {
-    font-size: 20px;
-    margin-bottom: 20px;
-    font-weight: bold;
-  }
-  .rectangulo > p {
-    font-size: 16px;
-    margin-bottom: 20px;
-  }
-  .rectangulo1 > p {
+  .rectangulo > p, .rectangulo1 > p {
     font-size: 16px;
     margin-bottom: 20px;
   }
@@ -441,19 +337,7 @@ h1 {
     font-size: 16px;
     margin-bottom: 15px;
   }
-  .url > a {
-    font-size: 16px;
-    padding: 20px;
-    width: 130px;
-    height: 40px;
-  }
-  .rectangulo > a {
-    font-size: 16px;
-    padding: 20px;
-    width: 130px;
-    height: 40px;
-  }
-  .rectangulo1 > a {
+  .url > a, .rectangulo > a, .rectangulo1 > a {
     font-size: 16px;
     padding: 20px;
     width: 130px;
@@ -470,33 +354,17 @@ h1 {
     max-height: 500px;
     flex-direction: row;
   }
-  .rectangulo {
+  .rectangulo, .rectangulo1{
     width: 30%;
     position: relative;
     top: 30px;
   }
-  .rectangulo1 {
-    width: 30%;
-    position: relative;
-    top: 30px;
-  }
-  .rectangulo .caja1 > h5 {
+  .rectangulo .caja1 > h5, .rectangulo1 .caja1 > h5 {
     font-size: 20px;
     width: 50px;
     height: 50px;
   }
-  .rectangulo1 .caja1 > h5 {
-    font-size: 20px;
-    width: 50px;
-    height: 50px;
-  }
-  .caja {
-    width: 100%;
-    border-bottom-left-radius: 60%;
-    border-bottom-right-radius: 60%;
-    margin-bottom: 30px;
-  }
-  .caja1 {
+  .caja, .caja1 {
     width: 100%;
     border-bottom-left-radius: 60%;
     border-bottom-right-radius: 60%;
@@ -508,22 +376,12 @@ h1 {
     height: 50px;
     font-weight: bold;
   }
-  .rectangulo > h3 {
+  .rectangulo > h3, .rectangulo1 > h3 {
     width: 100%;
     font-size: 18px;
     margin-bottom: 20px;
   }
-  .rectangulo1 > h3 {
-    width: 100%;
-    font-size: 18px;
-    margin-bottom: 20px;
-  }
-  .rectangulo .caja1 > h2 {
-    font-size: 25px;
-    margin-bottom: 50px;
-    font-weight: bold;
-  }
-  .rectangulo1 .caja1 > h2 {
+  .rectangulo .caja1 > h2, .rectangulo1 .caja1 > h2 {
     font-size: 25px;
     margin-bottom: 50px;
     font-weight: bold;
@@ -533,28 +391,16 @@ h1 {
     margin-bottom: 50px;
     font-weight: bold;
   }
-  .rectangulo > h4 {
+  .rectangulo > h4, .rectangulo1 > h4 {
     font-size: 12px;
     margin-bottom: 10px;
     font-weight: bold;
   }
-  .rectangulo > p {
+  .rectangulo > p, .rectangulo1 > p {
     font-size: 12px;
     margin-bottom: 20px;
   }
-  .rectangulo1 > h4 {
-    font-size: 12px;
-    margin-bottom: 10px;
-    font-weight: bold;
-  }
-  .rectangulo1 > p {
-    font-size: 12px;
-    margin-bottom: 20px;
-  }
-  .check-list > i {
-    font-size: 20px;
-  }
-  .check-list1 > i {
+  .check-list > i, .check-list1 > i {
     font-size: 20px;
   }
   .check-list {
@@ -565,22 +411,10 @@ h1 {
     font-size: 15px;
     margin-bottom: 20px;
   }
-  .url > a {
+  .url > a, .rectangulo > a, .rectangulo1 > a {
     font-size: 10px;
     padding: 10px;
     width: 100px;
     height: 30px;
-  }
-  .rectangulo > a {
-    padding: 10px;
-    width: 100px;
-    height: 30px;
-    font-size: 10px;
-  }
-  .rectangulo1 > a {
-    padding: 10px;
-    width: 100px;
-    height: 30px;
-    font-size: 10px;
   }
 }
