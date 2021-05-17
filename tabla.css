@@ -232,7 +232,6 @@ h1 {
   font-size: 10px;
   margin-bottom: 20px;
 }
-
 .url > a {
   display: inline-block;
   color: #ffffff;
@@ -284,10 +283,8 @@ h1 {
 @media only screen and (min-width: 1401px) {
   h1 {
     font-size: 60px;
-    font-weight: 500;
     margin-bottom: 40px;
   }
-
   .table {
     width: 50%;
     max-height: 1000px;
@@ -326,18 +323,12 @@ h1 {
     border-bottom-left-radius: 100%;
     border-bottom-right-radius: 100%;
     margin-bottom: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
   }
   .caja1 {
     width: 100%;
     border-bottom-left-radius: 100%;
     border-bottom-right-radius: 100%;
     margin-bottom: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
   }
   .rectangulo .caja > h6 {
     font-size: 30px;
@@ -356,40 +347,35 @@ h1 {
   }
   .rectangulo .caja1 > h2 {
     font-size: 30px;
-    font-weight: 500;
     margin-bottom: 30px;
+    font-weight: bold;
   }
   .rectangulo1 .caja1 > h2 {
     font-size: 30px;
-    font-weight: 500;
     margin-bottom: 30px;
+    font-weight: bold;
   }
   .rectangulo .caja > p {
     font-size: 30px;
-    font-weight: 400;
     margin-bottom: 30px;
     font-weight: bold;
   }
   .rectangulo > h4 {
     font-size: 20px;
-    font-weight: 400;
     margin-bottom: 20px;
     font-weight: bold;
   }
   .rectangulo1 > h4 {
     font-size: 20px;
-    font-weight: 400;
     margin-bottom: 20px;
     font-weight: bold;
   }
   .rectangulo > p {
     font-size: 16px;
-    font-weight: 500;
     margin-bottom: 20px;
   }
   .rectangulo1 > p {
     font-size: 16px;
-    font-weight: 500;
     margin-bottom: 20px;
   }
   .check-list > i {
@@ -407,57 +393,41 @@ h1 {
     margin-bottom: 15px;
   }
   .url > a {
-    font-weight: 400;
     font-size: 16px;
     padding: 20px;
     width: 130px;
     height: 40px;
-    margin-bottom: 20px;
   }
   .rectangulo > a {
-    font-weight: 400;
     font-size: 16px;
     padding: 20px;
     width: 130px;
     height: 40px;
-    margin-bottom: 20px;
   }
   .rectangulo1 > a {
-    font-weight: 400;
     font-size: 16px;
     padding: 20px;
     width: 130px;
     height: 40px;
-    margin-bottom: 20px;
   }
 }
-@media only screen and (max-width: 1400px) and (min-width: 564px) {
+@media only screen and (max-width: 1400px) and (min-width: 639px) {
   h1 {
     font-size: 25px;
-    font-weight: 300;
     margin-bottom: 58px;
   }
   .table {
     width: 94%;
     max-height: 500px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     flex-direction: row;
   }
   .rectangulo {
     width: 30%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     position: relative;
     top: 30px;
   }
   .rectangulo1 {
     width: 30%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     position: relative;
     top: 30px;
   }
@@ -476,18 +446,12 @@ h1 {
     border-bottom-left-radius: 60%;
     border-bottom-right-radius: 60%;
     margin-bottom: 30px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
   }
   .caja1 {
     width: 100%;
     border-bottom-left-radius: 60%;
     border-bottom-right-radius: 60%;
     margin-bottom: 30px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
   }
   .rectangulo .caja > h6 {
     font-size: 25px;
@@ -507,41 +471,35 @@ h1 {
   }
   .rectangulo .caja1 > h2 {
     font-size: 25px;
-    font-weight: 400;
     margin-bottom: 50px;
     font-weight: bold;
   }
   .rectangulo1 .caja1 > h2 {
     font-size: 25px;
-    font-weight: 400;
     margin-bottom: 50px;
     font-weight: bold;
   }
   .rectangulo .caja > p {
     font-size: 25px;
-    font-weight: 400;
     margin-bottom: 50px;
+    font-weight: bold;
   }
   .rectangulo > h4 {
     font-size: 12px;
-    font-weight: 400;
     margin-bottom: 10px;
     font-weight: bold;
   }
   .rectangulo > p {
     font-size: 12px;
-    font-weight: 400;
     margin-bottom: 20px;
   }
   .rectangulo1 > h4 {
     font-size: 12px;
-    font-weight: 400;
     margin-bottom: 10px;
     font-weight: bold;
   }
   .rectangulo1 > p {
     font-size: 12px;
-    font-weight: 400;
     margin-bottom: 20px;
   }
   .check-list > i {
@@ -558,29 +516,22 @@ h1 {
     font-size: 15px;
     margin-bottom: 20px;
   }
-
   .url > a {
-    font-weight: 400;
     font-size: 10px;
     padding: 10px;
     width: 100px;
     height: 30px;
-    margin-bottom: 20px;
   }
   .rectangulo > a {
     padding: 10px;
     width: 100px;
     height: 30px;
-    font-weight: 400;
     font-size: 10px;
-    margin-bottom: 20px;
   }
   .rectangulo1 > a {
     padding: 10px;
     width: 100px;
     height: 30px;
-    font-weight: 400;
     font-size: 10px;
-    margin-bottom: 20px;
   }
 }
