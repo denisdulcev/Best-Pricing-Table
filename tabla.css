@@ -50,6 +50,7 @@ h1 {
   justify-content: center;
   align-items: center;
   z-index: 2;
+  cursor: pointer;
 }
 .rectangulo:hover .caja1{
   box-shadow: 0 4px 10px rgba(17,29,48, .26);
@@ -109,6 +110,7 @@ h1 {
   justify-content: center;
   align-items: center;
   z-index: 1;
+  cursor: pointer;
 }
 .rectangulo .caja1 > h5 {
   font-size: 20px;
